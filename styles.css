@@ -1,0 +1,28 @@
+/*tag selectors*/
+body {
+    background-color: #EAF6F6;
+}
+hr {
+    height: 0px;
+    width: 5%;
+    border-bottom-style: dotted;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    border-bottom-width: 0.8ex;
+    border-color: grey;
+}
+h1,h3{
+    color: #66BFBF;
+}
+/*class selectors*/
+.one{
+    border-color:blue;
+}
+.two{
+    border-color:red
+}
+/*id selector, also see the "hobbies" heading, it changes color on hovering*/
+#psedo:hover {
+    color: gold;
+}
